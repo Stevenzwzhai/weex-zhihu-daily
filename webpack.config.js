@@ -60,6 +60,11 @@ function getBaseConfig () {
     vue: {
     },
     plugins: [bannerPlugin],
+    resolve:{
+      alias:{
+        'vue$': 'vue/dist/vue.js',
+      }
+    }
   }
 }
 

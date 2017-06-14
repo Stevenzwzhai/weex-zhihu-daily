@@ -24,15 +24,12 @@ import store from './src/vuex/store'
   }
 })()
 
-// new Vue({
-//   el: '#root',
-//   store,
-//   components:{
-//     App
-//   }
-//   // render: h => h(App)
-// })
+export default new Vue({
+  el: '#root',
+  store,
+  render: h => h(App)
+})
 console.log(store);
-new Vue(Vue.util.extend({ el: '#root', store }, App))
+// new Vue(Vue.util.extend({ el: '#root', store }, App))
 
 
