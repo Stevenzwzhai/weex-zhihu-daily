@@ -2,6 +2,8 @@
 
 > awesome-project
 
+## 注：不知到是不是我配置有问题，在vuex使用对象结构赋值总是没法办用，只能不使用Vun Runtime。这个是把之前做的知乎日报直接接进来的
+
 ## getting start
 
 ```bash
